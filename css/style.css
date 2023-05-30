@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:1200px;
+	padding:20px;
+	border:1px solid #7c7c7c;
+	border-radius:6px;
+	margin:30px auto 0;
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+}
+.progress_bar{
+	width:100%;
+	background-color:#ece7e7;
+	border:none;
+	border-radius:6px;
+	height:20px;
+	overflow:hidden;
+}
+.bar_success{
+	width:25%;
+	background-color:#1b8458;
+	border:none;
+	height:22px;
+}
+.bar_info{
+	width:50%;
+	background-color:#0accef;
+	border:none;
+	height:22px;
+}
+.bar_warning{
+	width:75%;
+	background-color:#ffbf09;
+	border:none;
+	height:22px;
+}
+.bar_danger{
+	width:100%;
+	background-color:#da3644;
+	border:none;
+	height:22px;
+}
